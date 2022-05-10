@@ -1,0 +1,20 @@
+Searching for Toronto in "ontario.txt":
+Province = Ontario
+Population = 2,731,571
+Area = 630.20
+
+Searching for Barrie in "ontario.txt":
+Province = Ontario
+Population = 141,434
+Area = 99.04
+
+Searching for Sherbrooke in "ontario.txt":
+Could not find Sherbrooke in "ontario.txt"
+
+Searching for Sherbrooke in "Quebec.txt":
+Province = Quebec
+Population = 161,323
+Area = 367.10
+
+Searching for Vancouver in "BC.txt":
+Error(get_city_details): Could not open file BC.txt

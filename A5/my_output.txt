@@ -1,0 +1,199 @@
+------------------------------
+Start testing: analyze_file:
+
+Analyzing file cIntro.txt:
+#Paragraphs = 5
+#lines = 9
+#Words = 38
+#Characters = 234
+Alpha = 227
+Numerical = 0
+Other = 7
+
+Analyzing file chistory.txt:
+#Paragraphs = 3
+#lines = 18
+#Words = 150
+#Characters = 895
+Alpha = 860
+Numerical = 12
+Other = 23
+
+Error(analyze_file): Could not open file nothing.txt
+
+End Testing: analzye_file
+------------------------------
+
+------------------------------
+Start testing: format_file1:
+
+Case 1: formatting cIntro.txt:
+
+C is an imperative 
+procedural language. It was 
+designed to be compiled 
+using a relatively straightforward 
+compiler. It provides low-level 
+access to memory. It 
+provides language constructs that 
+map efficiently to machine 
+instructions. It requires minimal 
+run-time support.
+
+----
+Case 2: formatting chistory.txt:
+
+C is a general-purpose, 
+imperative computer programming language, 
+supporting structured programming, lexical 
+variable scope and recursion, 
+while a static type 
+system prevents many unintended 
+operations. By design, C 
+provides constructs that map 
+efficiently to typical machine 
+instructions, and therefore it 
+has found lasting use 
+in applications that had 
+formerly been coded in 
+assembly language, including operating 
+systems, as well as 
+various application software for 
+computers ranging from supercomputers 
+to embedded systems. C 
+was originally developed by 
+Dennis Ritchie between 1969 
+and 1973 at Bell 
+Labs, and used to 
+re-implement the Unix operating 
+system. It has since 
+become one of the 
+most widely used programming 
+languages of all time, 
+with C compilers from 
+various vendors available for 
+the majority of existing 
+computer architectures and operating 
+systems. C has been 
+standardized by the American 
+National Standards Institute (ANSI) 
+since 1989 (see ANSI 
+C) and subsequently by 
+the International Organization for 
+Standardization (ISO).
+
+----
+Case 3: formatting nothing.txt:
+
+Error(format_file1): Could not open file nothing.txt
+
+----
+
+End Testing: format_file1
+------------------------------
+
+------------------------------
+Start testing: format_file2:
+
+Case 1: formatting cIntro.txt:
+
+C is an imperative procedural language.
+
+It was designed to be compiled using a relatively straightforward compiler.
+
+It provides lowlevel access to memory.
+
+It provides language constructs that map efficiently to machine instructions.
+
+It requires minimal runtime support
+
+----
+Case 2: formatting chistory.txt:
+
+C is a generalpurpose imperative computer programming language.
+Supporting structured programming lexical variable scope and recursion.
+While a static type system prevents many unintended operations.
+
+By design C provides constructs that map efficiently to typical.
+Machine instructions and therefore it has found lasting use in applications.
+That had formerly been coded in assembly language.
+Including operating systems as well as various application software.
+For computers ranging from supercomputers to embedded systems.
+
+C was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs.
+And used to reimplement the Unix operating system.
+It has since become one of the most widely used programming languages of all time.
+With C compilers from various vendors available for the majority of existing.
+Computer architectures and operating systems.
+C has been standardized by the American National Standards Institute ANSI.
+Since 1989 see ANSI C and subsequently by.
+The International Organization for Standardization ISO
+
+----
+Case 3: formatting nothing.txt:
+
+Error(format_file2): Could not open file nothing.txt
+
+----
+
+End Testing: format_file2
+------------------------------
+
+------------------------------
+Start testing: get_city_details:
+
+
+Searching for Toronto in "ontario.txt":
+Province = Ontario
+Population = 2,731,571
+Area = 630.20
+
+Searching for Barrie in "ontario.txt":
+Province = Ontario
+Population = 141,434
+Area = 99.04
+
+Searching for Sherbrooke in "ontario.txt":
+Could not find Sherbrooke in "ontario.txt"
+
+Searching for Sherbrooke in "Quebec.txt":
+Province = Quebec
+Population = 161,323
+Area = 367.10
+
+Searching for Vancouver in "BC.txt":
+Error(get_city_details): Could not open file BC.txt
+
+End Testing: get_city_details
+------------------------------
+
+------------------------------
+Start testing: replace_is:
+
+Replacing "is" with "==" in file ontario2.txt
+Population of Ontario == 13,448,494 and the area == 1,076,395
+Population of Toronto == 2,731,571 and the area == 630.20
+Population of Ottawa == 934,243 and the area == 2,790.30
+Population of Mississauga == 721,699 and the area == 292.43
+Population of Brampton == 593,638 and the area == 266.36
+Population of Hamilton == 536,917 and the area == 1,117.29
+Population of London == 383,822 and the area == 420.35
+Population of Markham == 328,966 and the area == 212.35
+Population of Barrie == 141,434 and thea area == 99.04
+
+Replacing "is" with ":=" in file Quebec2.txt
+Population of Quebec := 8,164,361 and the area := 1,542,056
+Population of Montreal := 1,704,694 and the area := 431.50
+Population of Quebec City := 531,902 and the area := 485.77
+Population of Laval := 422,993 and the area := 247.23
+Population of Gatineau := 276,245 and the area := 381.30
+Population of Longueuil := 239,700 and the area := 122.90
+Population of Sherbrooke := 161,323 and the area := 367.10
+Population of Saguenay := 145,949 and the area := 1,279.70
+Population of Levis := 143,414 and thea area := 497.00
+Population of Trois-Rivieres := 134,413 and thea area := 333.70
+Population of Terrebonne := 111,575 and thea area := 158.60
+
+End Testing: replace_is
+------------------------------
+

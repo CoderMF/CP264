@@ -1,0 +1,11 @@
+Population of Quebec := 8,164,361 and the area := 1,542,056
+Population of Montreal := 1,704,694 and the area := 431.50
+Population of Quebec City := 531,902 and the area := 485.77
+Population of Laval := 422,993 and the area := 247.23
+Population of Gatineau := 276,245 and the area := 381.30
+Population of Longueuil := 239,700 and the area := 122.90
+Population of Sherbrooke := 161,323 and the area := 367.10
+Population of Saguenay := 145,949 and the area := 1,279.70
+Population of Levis := 143,414 and thea area := 497.00
+Population of Trois-Rivieres := 134,413 and thea area := 333.70
+Population of Terrebonne := 111,575 and thea area := 158.60

@@ -1,8 +1,8 @@
 /*
  * ---------------------------------
  * Student Name: Maham Farooq
- * Student ID: 200498180
- * Student Email: faro8180@mylaurier.ca
+ * Student ID: 
+ * Student Email: 
  * ---------------------------------
  */
 
